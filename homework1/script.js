@@ -3,7 +3,7 @@
 // Вывести в консоль температуру в Цельсиях и Фаренгейтах.
 
 let tempC = 0;
-let tempF = tempC * 9/5 - 32;
+let tempF = (tempC * (9/5)) - 32;
 console.log(tempC);
 console.log(tempF);
 
